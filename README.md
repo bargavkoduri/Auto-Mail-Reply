@@ -3,7 +3,7 @@
 <p>To start the app node index</p>
 
 <h1>Technologies and Libraries used</h1>
-<p>Node.js,Express.js,googleapis,dotenv</p>
+<p>Node.js, Express.js, googleapis, dotenv</p>
 
 <h1>Code improvements</h1>
 <p>1. The population of the authentication URL in the index.html page can be automated using a template library instead of copy-pasting.  </p>
