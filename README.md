@@ -2,7 +2,7 @@
 <p>Install dependencies npm i </p>
 <p>To start the app node index</p>
 
-<h1>Technologies used</h1>
+<h1>Technologies and Libraries used</h1>
 <p>Node.js,Express.js,googleapis,dotenv</p>
 
 <h1>Code improvements</h1>
