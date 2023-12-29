@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="display: flex;justify-content: center;margin-top:50px">
+        <button style="width:150px;border: radius 10px;" onclick="redirectToGoogleLogin()">
+            Login with Google
+        </button>
+    </div>
+
+    <script>
+        function redirectToGoogleLogin() {
+            window.location.href = "https://accounts.google.com/o/oauth2/v2/auth?access_type=offline&scope=https%3A%2F%2Fmail.google.com%2F%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.modify&response_type=code&client_id=578190465397-rvv2condiek9l790tbedo2clbdavj4bj.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A5000%2Fauthenticate%2Fgoogle%2Fcallback"
+        }
+    </script>
+</body>
+</html>
